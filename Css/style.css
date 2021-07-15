@@ -1,0 +1,97 @@
+**{
+    margin: 0;
+    padding:0;
+   
+}
+/* **************font in below**************** */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ********************************start here******************************* */
+.firstpart{
+    padding-top: 150px;
+   display: flex;
+   justify-content: space-evenly;
+   background-color: #2D25A0;
+}
+.part1{
+    padding-left: 50px;
+    color:#FFFFFF;
+    font-size: 48px;
+    padding-bottom: 80px;
+    
+
+}
+
+.part2 img{
+    width: 556px;
+    height:438px;
+}
+.btn-icon{
+    color: white;
+    background-color: #E02C6D;
+    padding: 8px 12px;
+}
+
+/* ****************************second part start here*************************** */
+
+.playlist{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+.player img{
+    margin:0;
+    width: 300px;
+    height:40vh;
+}
+
+.player{
+    margin:auto;
+    width: 280px;
+    height: 60vh;
+    background-color: #F1F1F1;
+    margin-top: 20px;
+}
+/* /////*****************last section***************************************/*
+
+.lastone{
+    margin-top: 200px;
+    display: flex;
+}
+
+.textmark{
+   
+   padding-left: 50px;
+   padding-right: 50px;
+   margin-top: 50px;
+}
+
+.textmark h1{
+    font-size: 48px;
+     /* font-family: 'Poppins', sans-serif; */
+    
+}
+.textmark p{
+    font-size: 16px;
+     /* font-family: 'Poppins', sans-serif; */
+}
+.lastone img{
+    width: 100%;
+
+}
+
+/* ******************************************************************footpart
+*************************************************************************************** */
+
+.footpart{
+    margin-top: 150px;
+    text-align: center;
+}
+.iconlist{
+    text-indent: 30px;
+    color: burlywood;
+}
